@@ -1,0 +1,121 @@
+
+# header nav
+# 菜单路径
+menu:
+  home: /
+  archives: archives
+  categories: categories  
+  tags: tags
+  about: about
+  search: search
+
+
+# site color 
+# 配置站点的配色
+# [black blue brown purple red green]
+color: black  
+
+# site title 
+# 页面的标题
+# title为空时 Hexo/_config.yml 配置有效
+title: Nayo
+
+
+# author profile
+# source/imgaes/
+# 作者信息
+# author为空时 Hexo/_config.yml 配置有效
+profile: 
+  logo: Nayo
+  author: Lemonreds
+  avatar: /images/header.jpg  
+  location: GuangZhou CN
+
+# site favicon
+# source/imgaes/
+# 站点图标
+favicon: /images/favicon.png
+
+# social link
+social:  
+  github: https://github.com/Lemonreds  
+  zhihu:
+  weibo:
+#  segmentfault: 
+  facebook:
+  twitter:
+  instagram:
+#  linkedin:
+  others:
+
+
+# toc
+# 文章的目录 仅识别 H1 和 H2/H3
+toc:
+    true
+
+# code highlight style
+# 代码高亮风格
+# [normal night white]
+highlight_theme: 
+    normal
+
+# site analytics 
+# 站点访问统计
+# [ analytics id ]
+baidu_analytics:
+  #636802045446222199ae541e32c8133e 
+google_analytics: 
+
+# busuanzi site count
+# 底部访客记录
+busuanzi:
+  false
+
+# comment
+
+# disqus(https://disqus.com/)
+disqus:
+  comment: false
+  shortname: lemonreds
+
+# valine(https://github.com/xCss/Valine)
+leancloud:  
+  comment: true
+  app_id: cFM0eCo0CQ9xmBXmHi1eltol-gzGzoHsz
+  app_key: oh9tizsnvV2vNvWgqEvoNtQO
+
+# mob share(http://www.mob.com)
+# 文章分享功能
+mob_share:
+  true
+
+share_item:
+- qq
+- weixin
+- weibo
+- douban
+- facebook
+- twitter
+- tumblr
+- google
+
+
+# donate
+# 捐赠功能
+# source/imgaes/
+donate:
+  enable: true
+  word: 世界美好 你也是
+  wechat: /images/donate1.png
+  alipay: /images/donate2.png
+
+# fancybox
+# https://github.com/fancyapps/fancybox
+# fancybox:
+#  true
+
+
+#theme version
+version:
+  1.0
